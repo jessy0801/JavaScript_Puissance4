@@ -1,0 +1,26 @@
+{
+  "name": "javascript_puissance4",
+  "version": "1.0.0",
+  "description": "JavaScript_Puissance4",
+  "main": "jquery.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack src/* dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.epitech.eu:/jessy-loup.robinet@epitech.eu/JavaScript_Puissance4"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "jcanvas": "^20.1.1",
+    "jquery": "^3.2.1"
+  }
+}
